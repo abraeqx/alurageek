@@ -1,0 +1,56 @@
+.cabecera {
+    width: 100%;
+}
+
+.header__div {
+    padding: 0 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 9%;
+}
+
+.header__container {
+    width: auto;
+}
+
+.header__container__input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header__input__buscar {
+    left: 85%;
+    bottom: 33%;
+}
+
+@media screen and (max-width:768px) {
+    
+
+    .header__div {
+        padding: 0 2%;
+    }
+
+    .header__input__buscar {
+        left: 90%;
+        bottom: 33%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    
+    .header__div {
+        padding: 0;
+        /* justify-content: space-around; */
+    }
+
+    .header__div img {
+        padding-left: 1rem;
+    }
+
+    .header__input__buscar {
+        position: absolute;
+    }
+
+}

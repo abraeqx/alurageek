@@ -1,0 +1,11 @@
+.productos {
+    padding: 0 15.5%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width:768px) {
+    .productos {
+        padding: 0 3%;
+    }
+
+}

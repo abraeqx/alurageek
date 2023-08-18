@@ -1,0 +1,175 @@
+.header__container {
+    width: 100%;
+    display: flex;
+    padding-left: 15%;
+}
+
+.main {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__producto__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 15%;
+    margin-top: 3rem;
+}
+
+.producto__container__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 560px;
+    height: 210px;
+}
+
+.producto__titulo {
+    font-size: 52px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.producto__precio {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.producto__descripcion {
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646;
+}
+
+.main__productos__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 0 15%;
+}
+
+.productos__container__titulo {
+    margin: 1rem 0;
+}
+
+.productos__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.productos__container__card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productos__card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.productos__card__titulo {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.productos__card__precio {
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.productos__card__link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+/*  */
+@media screen and (max-width:768px) {
+
+    .header__container {
+        padding-left: 3%;
+    }
+
+    .main__producto__container {
+        padding: 0 3%;
+    }
+
+    .producto__titulo {
+        font-size: 22px;
+    }
+
+    .producto__descripcion {
+        font-size: 14px;
+    }
+
+    .producto__imagen {
+        width: 254px;
+    }
+
+    .main__productos__container {
+        padding: 0 3%;
+    }
+
+    .productos__card {
+        width: 164px;
+    }
+
+    .productos__card:nth-child(5),
+    .productos__card:nth-child(6) {
+        display: none;
+    }
+
+    .productos__titulo {
+        font-size: 22px;
+    }
+
+}
+
+/*  */
+@media screen and (max-width:375px) {
+    
+    .header__container {
+        padding: 0 5%;
+    }
+
+    .header__container__input {
+        width: 100%;
+    }
+
+    .main__producto__container {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .producto__imagen {
+        width: 100%;
+    }
+
+    .producto__container__textos {
+        width: 100%;
+    }
+
+    .producto__titulo {
+        padding: 0 5%;
+    }
+
+    .producto__precio {
+        padding: 0 5%;
+    }
+
+    .producto__descripcion {
+        padding: 0 5%;
+    }
+
+}

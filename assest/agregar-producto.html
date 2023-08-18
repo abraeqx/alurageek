@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar producto</title>
+    <script src="https://kit.fontawesome.com/fa8ddfd53b.js" crossorigin="anonymous"></script>
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Reseteo -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Cabecera -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- Main - Form -->
+    <link rel="stylesheet" href="css/agregar-producto/agregar.css">
+    <!-- Footer -->
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header class="header">
+        <section class="header__section">
+            <div class="header__container">
+                <a href="../index.html"><img src="img/Logo.png" alt="Logo AluraGeek"></a>
+                <div class="header__container__input">
+                    <input type="search" class="header__input" placeholder="¿Qué deseas buscar?">
+                </div>
+                <i class="fa-solid fa-magnifying-glass header__input__buscar"></i>
+            </div>
+            <div class="header__boton__container">
+                <a href="" class="header__boton__link"><button class="header__boton">Menú Administrador</button></a>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="main__form">
+            <form action="" class="form__contenedor">
+                <h1 class="form__contenedor__titulo">Agregar nuevo producto</h1>
+                <div class="form__input__box">
+                    <input type="text" id="url" class="form__input__a" required>
+                    <label for="url" class="form__input__label">URL de imagen</label>
+                </div>
+                <div class="form__input__box">
+                    <input type="text" class="form__input__a" id="categoria" required>
+                    <label for="categoria" class="form__input__label">Categoría</label>
+                </div>
+                <div class="form__input__box">
+                    <input type="text" id="name" class="form__input__a" required>
+                    <label for="name" class="form__input__label">Nombre del producto</label>
+                </div>
+                <div class="form__input__box">
+                    <input type="number" id="price" class="form__input__a" required>
+                    <label for="price" class="form__input__label">Precio del producto</label>
+                </div>
+                <div class="form__input__box">
+                    <textarea name="" id="area" class="form__input__a form__textarea" required></textarea>
+                    <label for="area" class="form__input__area">Descripción del producto</label>
+                </div>
+                <div class="form__input__box" >
+                    <input type="submit" class="form__input__b" value="Agregar producto">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__container">
+            <div class="footer__container__logo">
+                <a href="../index.html">
+                    <img class="footer__container__imagen" src="img/Logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="footer__container__about">
+                <h4 class="footer__container__about__p">Quienes somos</h4>
+                <h4 class="footer__container__about__p">Política de privacidad</h4>
+                <h4 class="footer__container__about__p">Programa de fidelidad</h4>
+                <h4 class="footer__container__about__p">Nuestras tiendas</h4>
+                <h4 class="footer__container__about__p">Quiero ser franquiciado</h4>
+                <h4 class="footer__container__about__p">Anúncie aqui</h4>
+            </div>
+            <div class="form__container">
+                <form class="form" action="">
+                    <h2 class="form__titulo">Hable con nosotros</h2>
+                    <input class="form__input" type="text" placeholder="Nombre">
+                    <textarea class="form__mensaje" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                    <input type="button" value="Enviar mensaje" class="form__boton">
+                </form>
+            </div>
+        </section>
+        <div class="footer__pie">
+            <h3 class="footer__pie__titulo">Desarrollado por Abraham</h3>
+            <h4 class="footer__pie__fecha">2023</h4>
+        </div>
+    </footer>
+</body>
+</html>
